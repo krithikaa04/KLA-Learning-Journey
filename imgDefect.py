@@ -15,10 +15,10 @@ def find_defect_areas(wafer1_gray,wafer2_gray,threshold):
 
     return defective_pixels
 
-threshold = 50  # Adjust the threshold value based on your requirements
-wafer1 = Image.open("C:\\Users\\Krithika\Desktop\\PSG\KL workshop- learning journey\\Level_1_Input_Data\\wafer_image_1.png")
-wafer2 = Image.open("C:\\Users\\Krithika\Desktop\\PSG\KL workshop- learning journey\\Level_1_Input_Data\\wafer_image_2.png")
-wafer3 = Image.open("C:\\Users\\Krithika\Desktop\\PSG\KL workshop- learning journey\\Level_1_Input_Data\\wafer_image_3.png")
+threshold = 1  # Adjust the threshold value based on your requirements
+wafer1 = Image.open("Level_1_Input_Data\\wafer_image_1.png")
+wafer2 = Image.open("Level_1_Input_Data\\wafer_image_2.png")
+wafer3 = Image.open("Level_1_Input_Data\\wafer_image_3.png")
 
 #convert to gray scale
 wafer1_gray = wafer1.convert("L")
